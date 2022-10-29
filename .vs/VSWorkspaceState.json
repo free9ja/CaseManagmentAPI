@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.config",
+    "\\bin",
+    "\\Controllers",
+    "\\DataContext",
+    "\\Helpers",
+    "\\Models",
+    "\\obj",
+    "\\Properties",
+    "\\Services"
+  ],
+  "SelectedNode": "\\Models\\CMCase.cs",
+  "PreviewInSolutionExplorer": false
+}

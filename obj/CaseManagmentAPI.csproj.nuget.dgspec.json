@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seyifalaiye\\source\\repos\\CaseManagmentAPI\\CaseManagmentAPI.csproj": {}
+    "D:\\WINDOWS\\Desktop\\SCHOOL\\Fall 2022\\Cloud Computing\\project\\CaseManagmentAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\seyifalaiye\\source\\repos\\CaseManagmentAPI\\CaseManagmentAPI.csproj": {
+    "D:\\WINDOWS\\Desktop\\SCHOOL\\Fall 2022\\Cloud Computing\\project\\CaseManagmentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seyifalaiye\\source\\repos\\CaseManagmentAPI\\CaseManagmentAPI.csproj",
+        "projectUniqueName": "D:\\WINDOWS\\Desktop\\SCHOOL\\Fall 2022\\Cloud Computing\\project\\CaseManagmentAPI.csproj",
         "projectName": "CaseManagmentAPI",
-        "projectPath": "C:\\Users\\seyifalaiye\\source\\repos\\CaseManagmentAPI\\CaseManagmentAPI.csproj",
-        "packagesPath": "C:\\Users\\seyifalaiye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seyifalaiye\\source\\repos\\CaseManagmentAPI\\obj\\",
+        "projectPath": "D:\\WINDOWS\\Desktop\\SCHOOL\\Fall 2022\\Cloud Computing\\project\\CaseManagmentAPI.csproj",
+        "packagesPath": "C:\\Users\\kiral\\.nuget\\packages\\",
+        "outputPath": "D:\\WINDOWS\\Desktop\\SCHOOL\\Fall 2022\\Cloud Computing\\project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\seyifalaiye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kiral\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,6 +84,10 @@
               "target": "Package",
               "version": "[1.16.0, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -95,7 +99,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -107,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
