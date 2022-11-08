@@ -8,12 +8,13 @@ namespace CaseManagmentAPI.Models
         public System.Nullable<System.DateTime> createdAt { get; set; }
         public System.Nullable<System.DateTime> resolvedAt { get; set; }
         public string status { get; set; }
+        public int state { get; set; }
         public int caseTypeId { get; set; }
         public CMCaseType cMCaseType { get; set; }
         public int customerId { get; set; }
         public CMCustomer cMCustomer { get; set; }
-        public int agentId { get; set; }
-        public CMAgent cMAgent { get; set; }
+        public int? customerCareId { get; set; }
+        public CMCustomerCare? customerCare { get; set; }
     }
 
     public class CMCaseType
@@ -33,7 +34,7 @@ namespace CaseManagmentAPI.Models
         public string? PhoneNumber { get; set; }
     }
 
-    public class CMAgent
+    public class CMCustomerCare
     {
         public int ID { get; set; }
         public string? FirstName { get; set; }
